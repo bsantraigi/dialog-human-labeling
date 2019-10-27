@@ -1,0 +1,44 @@
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
+
+<crowd-form>
+  <crowd-classifier
+    name="intent"
+    categories="{{ task.input.labels }}"
+    header="Pick the Most Appropriate Response to Dialog Context"
+  >
+    <classification-target>
+    <iframe style="width: 100%; height: 300px;" src="{{ task.input.utterance }} " frameborder="0"></iframe>
+      
+    </classification-target>
+    
+    <full-instructions header="Full Task Instructions">
+        <h1>Dialog Response Selection</h1>
+        <p>Each data sample consists of a base dialog context and several candidate responses. Your task is to choose the best response among all the candidates. Following is an example data sample,</p>
+        <p><br /><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.stack.imgur.com/U93bk.png" alt="Instructions" width="595" height="455" /></p>
+        <p>In above example, the dialog context is <em>&ldquo;hello , i brought a lap - top computer with me . do you know how can i use the internet in my room ? &ldquo;.&nbsp;</em></p>
+        <p>There are 3 candidate responses available in this sample, you have to choose the best one among these. If you think <em>Response 1 </em>is the best available response, please label this as <em>1.</em></p>
+        <p>For comparing the available responses you need to consider two aspects of the responses,&nbsp;</p>
+        <ul>
+        <li><em>Coherence of the response to the dialog context.</em></li>
+        </ul>
+        <ul>
+        <li>Grammatical correctness of the response.</li>
+        </ul>
+        <p><br /><br /></p>
+    </full-instructions>
+
+    <short-instructions>
+        <ol>
+            <li><strong>Read</strong> the dialog history/<strong>context</strong> carefully.</li>
+            <li><strong>Read</strong> the <strong>individual</strong> <strong>responses</strong> carefully.</li>
+            <li><strong>Choose the response label</strong> that best suits the context in terms of grammatical correctness and coherence to the context.</li>
+            <li>Read the <strong>example</strong> in <strong>full instructions</strong> to understand more about the task.</li>
+        </ol>
+    </short-instructions>
+  </crowd-classifier>
+</crowd-form>
