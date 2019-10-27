@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+i can ' t open this email attachment our paris office has sent me . 
+are you sure you ' re using the right program ? 
+
+Response samples:
+
+
+Response 1: no , not at all . the problem is the most important thing to do . i'm not sure if i can't find anything to do with my work . </s>
+
+Response 2: i am a student student in the field of the company and i have a lot of work in the company . </s>
+
+Response 3: no , not yet . </s>
+
+Response 4: well , yes it's definitely the same program but i might have the wrong version . their system is <unk> than ours . </s>

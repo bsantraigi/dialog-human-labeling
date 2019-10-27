@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+staying out all night , you frightened me to death . 
+
+Response samples:
+
+
+Response 1: did you know what ? </s>
+
+Response 2: i stayed with my friends . </s>
+
+Response 3: will you ? </s>
+
+Response 4: is that ? </s>

@@ -1,0 +1,400 @@
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-1.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-2.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-3.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-4.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-5.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-6.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-7.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-8.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-9.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-10.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-11.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-12.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-13.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-14.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-15.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-16.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-17.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-18.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-19.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-20.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-21.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-22.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-23.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-24.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-25.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-26.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-27.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-28.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-29.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-30.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-31.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-32.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-33.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-34.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-35.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-36.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-37.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-38.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-39.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-40.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-41.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-42.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-43.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-44.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-45.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-46.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-47.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-48.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-49.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-50.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-51.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-52.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-53.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-54.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-55.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-56.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-57.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-58.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-59.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-60.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-61.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-62.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-63.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-64.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-65.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-66.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-67.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-68.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-69.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-70.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-71.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-72.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-73.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-74.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-75.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-76.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-77.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-78.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-79.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-80.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-81.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-82.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-83.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-84.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-85.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-86.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-87.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-88.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-89.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-90.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-91.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-92.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-93.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-94.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-95.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-96.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-97.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-98.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-99.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M1-100.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-1.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-2.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-3.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-4.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-5.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-6.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-7.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-8.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-9.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-10.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-11.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-12.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-13.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-14.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-15.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-16.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-17.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-18.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-19.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-20.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-21.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-22.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-23.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-24.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-25.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-26.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-27.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-28.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-29.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-30.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-31.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-32.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-33.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-34.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-35.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-36.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-37.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-38.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-39.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-40.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-41.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-42.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-43.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-44.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-45.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-46.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-47.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-48.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-49.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-50.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-51.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-52.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-53.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-54.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-55.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-56.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-57.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-58.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-59.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-60.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-61.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-62.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-63.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-64.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-65.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-66.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-67.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-68.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-69.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-70.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-71.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-72.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-73.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-74.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-75.txt
+Gold @ 3
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-76.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-77.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-78.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-79.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-80.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-81.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-82.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-83.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-84.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-85.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-86.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-87.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-88.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-89.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-90.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-91.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-92.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-93.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-94.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-95.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-96.txt
+Gold @ 1
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-97.txt
+Gold @ 0
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-98.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-99.txt
+Gold @ 2
+gs://dialogue-resp-selection/gcp-dataset/samples/M2-100.txt
+Gold @ 0

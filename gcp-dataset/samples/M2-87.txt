@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+what kind of job do you intend to do ? 
+i want to do some management job since i have three - year ' s work history . 
+
+Response samples:
+
+
+Response 1: is there any other languages ? </s>
+
+Response 2: what are your plans if you were hired ? </s>
+
+Response 3: what are you doing in doing ? </s>
+
+Response 4: let's see what you're doing . </s>

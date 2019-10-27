@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+ah , bob . just the person i wanted to see . 
+
+Response samples:
+
+
+Response 1: she's fine . </s>
+
+Response 2: really ? </s>
+
+Response 3: so what is it ? </s>
+
+Response 4: ok . </s>

@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+hi , sally ! you are talking to the proud father of a new baby girl ! 
+
+Response samples:
+
+
+Response 1: nice to meet you , too . </s>
+
+Response 2: congratulations , bob ! that ’ s great news , what ’ s her name ? </s>
+
+Response 3: what did you do ? </s>
+
+Response 4: of course , mr . smith , the manager of the company . </s>

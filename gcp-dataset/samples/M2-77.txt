@@ -1,0 +1,14 @@
+Context:
+
+<d> 
+what time does the museum close ? any idea ? 
+i ' m not sure , but i think it ' s open until 4 o ' clock . 
+
+Response samples:
+
+
+Response 1: thank you very much . and we'll be able to get a new one . </s>
+
+Response 2: what time is it now ? </s>
+
+Response 3: ok , thank you . you can see the <unk> . </s>

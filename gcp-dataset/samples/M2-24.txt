@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+our new production control program ' s going live on monday . the old and the new programs will operate in <unk> for four to six weeks . that should give us time to iron out any little 
+
+Response samples:
+
+
+Response 1: well , that's right . we'll have to get some details on the right to the new wall . </s>
+
+Response 2: oh , is that ? </s>
+
+Response 3: hope it all goes well . we're very busy at the moment and certainly don't want any problems at this time of year . </s>

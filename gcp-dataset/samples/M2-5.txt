@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+so that <unk> the introduction . now let ' s move to the first part of my talk , which is about 2006 <unk> year marketing plan . so first , right off the bat , when looking 
+
+Response samples:
+
+
+Response 1: we wanted to appeal to a younger set of consumers and also , in line with that goal , redo our image ... </s>
+
+Response 2: can't you see it ? </s>
+
+Response 3: the same thing is the most important thing to the <unk> of the city . </s>
+
+Response 4: surely it's really worth it . </s>

@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+could you fill in this form , please ? 
+
+Response samples:
+
+
+Response 1: no no , a single room , a single room , a double room , a double room , a double room , a double room , please . </s>
+
+Response 2: no , it's not a problem . i'm afraid i can't find it . </s>
+
+Response 3: all right . </s>

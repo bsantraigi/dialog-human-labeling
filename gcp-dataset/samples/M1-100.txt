@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+excuse me , but can i draw on my account for payment of things i buy in china ? 
+
+Response samples:
+
+
+Response 1: certainly , sir . how much do you draw ? </s>
+
+Response 2: no , not at all . </s>
+
+Response 3: no , not at all . the main thing is to be in the middle of the city , but the other are not allowed to be able to find a place to be the most important thing . </s>

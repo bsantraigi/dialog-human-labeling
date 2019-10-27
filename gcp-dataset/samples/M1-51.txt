@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+hello , is john in ? 
+no , can i take a message ? 
+
+Response samples:
+
+
+Response 1: a single room with a bath , please . </s>
+
+Response 2: no , it's a bit of a <unk> . </s>
+
+Response 3: what are you going to do ? </s>
+
+Response 4: no , i'll call back later . </s>

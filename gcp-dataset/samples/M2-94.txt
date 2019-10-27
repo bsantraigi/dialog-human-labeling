@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+an idea about killing time on a train ? 
+
+Response samples:
+
+
+Response 1: do you have any idea of the <unk> ? </s>
+
+Response 2: i advise you to read <unk> . you can get a lot from it . </s>
+
+Response 3: of course . </s>
+
+Response 4: most of them . </s>

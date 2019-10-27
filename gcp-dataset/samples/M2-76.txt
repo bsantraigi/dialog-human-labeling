@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+what time does the museum close ? any idea ? 
+
+Response samples:
+
+
+Response 1: i'm not sure , but i think it's open until 4 o'clock . </s>
+
+Response 2: i am not sure what to say . the problem is that the <unk> is not allowed . </s>
+
+Response 3: is there any difference between the price ? </s>

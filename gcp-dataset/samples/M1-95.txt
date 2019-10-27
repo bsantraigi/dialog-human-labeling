@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+an idea about killing time on a train ? 
+i advise you to read <unk> . you can get a lot from it . 
+
+Response samples:
+
+
+Response 1: ok , this is the first time we have to go to the cinema . </s>
+
+Response 2: to be honest , i don't think i'm going to be a bit of a bit . </s>
+
+Response 3: it's not the same time to get there . </s>
+
+Response 4: but there's quite a lot of rumors about it . </s>

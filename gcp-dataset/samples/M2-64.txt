@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+what are the attractions of that city ? 
+
+Response samples:
+
+
+Response 1: i have been working on sale for three years . </s>
+
+Response 2: it's famous for beautiful countryside with clean air . </s>
+
+Response 3: what are you going to do ? </s>

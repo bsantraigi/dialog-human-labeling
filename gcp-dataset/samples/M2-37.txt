@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+would dr . black be able to see me at 9 : 00 a . m . tomorrow ? 
+i ' m sorry , but she won ' t have any openings until 11 : 00 , unless there ' s a cancellation . 
+
+Response samples:
+
+
+Response 1: would 1 : <unk> p . m . be convenient ? </s>
+
+Response 2: no , thank you . you can't do that , i'm afraid i'll be able to get a new one . </s>
+
+Response 3: how are you doing ? </s>
+
+Response 4: have you got any other ? </s>

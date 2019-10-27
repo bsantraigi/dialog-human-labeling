@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+what are the attractions of that city ? 
+it ' s famous for beautiful countryside with clean air . 
+
+Response samples:
+
+
+Response 1: sounds like it . </s>
+
+Response 2: is the weather ? </s>
+
+Response 3: oh , that's what i am looking for . do you have a reduction for 6 persons ? </s>
+
+Response 4: have you got the flu ? </s>

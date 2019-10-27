@@ -1,0 +1,14 @@
+Context:
+
+<d> 
+i can ' t open this email attachment our paris office has sent me . 
+are you sure you ' re using the right program ? 
+
+Response samples:
+
+
+Response 1: well , yes it's definitely the same program but i might have the wrong version . their system is <unk> than ours . </s>
+
+Response 2: here you are . </s>
+
+Response 3: are you ? </s>

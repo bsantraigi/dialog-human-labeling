@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+hello . capital hotel . may i help you ? 
+yes , <unk> my flight will be 2 hours due to the fog . would you please keep my reservation ? 
+
+Response samples:
+
+
+Response 1: your room number . what do you want ? </s>
+
+Response 2: may we have your name , please ? </s>
+
+Response 3: would you please fill in this form ? </s>
+
+Response 4: sure . may i have your name please ? </s>

@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+you look great ! how do you stay in such good shape ? 
+
+Response samples:
+
+
+Response 1: well , i go jogging every morning , eat a <unk> diet and work out in a gymnasium twice a week . </s>
+
+Response 2: no , there's nothing wrong with my parents . i'm a bit worried about my job . </s>
+
+Response 3: what about a movie ? i don't like the best , but i like to play the piano , i like to play the piano , i like to play the piano , i like to play the
+
+Response 4: no , not at all . i just can't find the job in the city . i'm going to have a look at the <unk> of the city . i'm going to have a

@@ -1,0 +1,14 @@
+Context:
+
+<d> 
+excuse me . 
+yes ? 
+
+Response samples:
+
+
+Response 1: well , have you got any plans ? </s>
+
+Response 2: i am . </s>
+
+Response 3: could you tell me where the copy room is ? </s>

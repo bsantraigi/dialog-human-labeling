@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+hi , jane . how are you doing this morning ? 
+
+Response samples:
+
+
+Response 1: no , i'm not . </s>
+
+Response 2: what ? it's a great idea . i'm going to have a look at the <unk> . </s>
+
+Response 3: i ’ m all right , thanks . just a little tired . </s>
+
+Response 4: yes , it's a bit too . </s>

@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+an idea about killing time on a train ? 
+i advise you to read <unk> . you can get a lot from it . 
+
+Response samples:
+
+
+Response 1: would you like to go ? </s>
+
+Response 2: but there's quite a lot of rumors about it . </s>
+
+Response 3: will you be able to help me ? </s>
+
+Response 4: that is what i'm going to do . </s>

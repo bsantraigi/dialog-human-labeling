@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+how often does the bus run ? 
+
+Response samples:
+
+
+Response 1: every five minutes . </s>
+
+Response 2: no . about the <unk> . </s>
+
+Response 3: a couple of days ago . </s>
+
+Response 4: no , no , the only thing . </s>

@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+excuse me . mr . emory ? 
+
+Response samples:
+
+
+Response 1: the first thing , please . i'm sorry . i've got a reservation for a single room for a bath . </s>
+
+Response 2: yes , ms . rodriguez ? how can i help you ? </s>
+
+Response 3: no , please . could you tell me where the post office is ? </s>

@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+excuse me ! does this bus go to the railway station ? 
+
+Response samples:
+
+
+Response 1: here you go . the bus is at the corner . </s>
+
+Response 2: no , you're got on the wrong bus . you can take a no . 22 bus at the university station and then transfer to a no . 83 bus at the railway station . </s>
+
+Response 3: do you have any idea of the city ? </s>
+
+Response 4: here you go . </s>

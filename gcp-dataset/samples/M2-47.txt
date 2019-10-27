@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+so how can i make it ? 
+first you make a list of what you wanna buy ... 
+
+Response samples:
+
+
+Response 1: but i ’ ve gotta have the <unk> before anything else . </s>
+
+Response 2: what are you going to do ? </s>
+
+Response 3: will you be able to find some kind ? </s>
+
+Response 4: what would you like to drink ? </s>

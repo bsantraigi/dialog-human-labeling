@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+excuse me . my name is dan ford . i have an appointment with the dentist at 3 : 30 . 
+
+Response samples:
+
+
+Response 1: i am sorry . </s>
+
+Response 2: bye ? </s>
+
+Response 3: yes , mr . ford . the dentist will be ready to see you in a minute . have a seat . </s>
+
+Response 4: how long ? </s>

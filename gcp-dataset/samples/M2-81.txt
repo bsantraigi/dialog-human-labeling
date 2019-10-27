@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+ah , bob . just the person i wanted to see . 
+so what is it ? 
+
+Response samples:
+
+
+Response 1: you have a very good job , and you know , i'm not sure what to do . </s>
+
+Response 2: you are right . </s>
+
+Response 3: you gotta help me out this time , buddy . </s>
+
+Response 4: the <unk> is <unk> . </s>

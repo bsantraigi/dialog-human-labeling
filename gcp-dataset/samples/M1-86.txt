@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+what kind of job do you intend to do ? 
+
+Response samples:
+
+
+Response 1: no way ? no one is a good idea . i don't like to do that . i don't want to be able to get a job . </s>
+
+Response 2: the is the first thing , the <unk> of the company is the best part of the world . it's a good idea to be </s>
+
+Response 3: i want to do some management job since i have three - year's work history . </s>

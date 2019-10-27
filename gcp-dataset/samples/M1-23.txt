@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+excuse me ! does this bus go to the railway station ? 
+
+Response samples:
+
+
+Response 1: good morning . the new one - bedroom apartment is on the corner . </s>
+
+Response 2: no , the bus is a bit too . the bus is a bit too . </s>
+
+Response 3: yes , it is . it's a little too expensive . </s>
+
+Response 4: no , you're got on the wrong bus . you can take a no . 22 bus at the university station and then transfer to a no . 83 bus at the railway station . </s>

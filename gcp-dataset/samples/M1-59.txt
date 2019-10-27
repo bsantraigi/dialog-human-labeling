@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+i ' d like to talk to mr . white please ? 
+he stepped out of the office for a little while . 
+
+Response samples:
+
+
+Response 1: a little is a bit too . </s>
+
+Response 2: i'm sorry , but don't worry about it . i'll take it . i'll take it back to the airport . </s>
+
+Response 3: ok , i am . i'm sorry , but i'm not sure . i'll be back in the next week . </s>
+
+Response 4: when is a good time to catch him ? </s>

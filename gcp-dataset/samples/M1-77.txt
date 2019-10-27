@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+what time does the museum close ? any idea ? 
+i ' m not sure , but i think it ' s open until 4 o ' clock . 
+
+Response samples:
+
+
+Response 1: let's see it . it's a bit of the <unk> to the <unk> . it's a beautiful day to see the world . </s>
+
+Response 2: it's not the same way to be there , but it's not a long time to go to the beach . </s>
+
+Response 3: what time is it now ? </s>
+
+Response 4: a good idea , the food is too hot . </s>

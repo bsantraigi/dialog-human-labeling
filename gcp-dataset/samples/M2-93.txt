@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+staying out all night , you frightened me to death . 
+i stayed with my friends . 
+
+Response samples:
+
+
+Response 1: you should at least give me a call . </s>
+
+Response 2: would you like to drink ? </s>
+
+Response 3: are you serious ? </s>
+
+Response 4: have you been drinking lately ? </s>

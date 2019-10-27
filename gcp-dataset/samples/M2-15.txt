@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+i ' m so sorry about your brother , mr . wang . 
+
+Response samples:
+
+
+Response 1: to be honest , please . </s>
+
+Response 2: what is the matter ? </s>
+
+Response 3: will you ? </s>
+
+Response 4: thanks , jane . </s>

@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+i have difficulty with this form . will you please explain it to me ? 
+
+Response samples:
+
+
+Response 1: actually there is a sample over there . but if you still have a problem , let me know . </s>
+
+Response 2: no , no . i am not sure . </s>
+
+Response 3: no , thanks . the next time is coming to the airport . and the next thing is coming to be a little bit of the <unk> . </s>

@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+how are you doing , jim ? 
+
+Response samples:
+
+
+Response 1: </s>
+
+Response 2: fine , just fine . how about you ? </s>
+
+Response 3: what are you doing ? </s>

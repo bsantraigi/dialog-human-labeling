@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+mr . smith , do you like the hotel we booked ? 
+
+Response samples:
+
+
+Response 1: yes , we do . we like it very much . </s>
+
+Response 2: yes . why do you want to go ? </s>
+
+Response 3: no , no , i am not sure . i have a reservation for my room . i'm sorry . </s>
+
+Response 4: no , no . no . i'm sorry . i'm sorry . </s>

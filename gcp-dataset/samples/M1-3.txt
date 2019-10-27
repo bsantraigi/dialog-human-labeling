@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+excuse me , sir , but you have to put your bags here before entering the market . 
+
+Response samples:
+
+
+Response 1: oh . i am sorry . i was busy looking for some whisky . can you tell me the exactly place where i can find any ? </s>
+
+Response 2: what about the price ? i have a reservation for a single room with a bath . i'm afraid we can't find it . </s>
+
+Response 3: yes , the food is a bit too tight to the <unk> . i'll take a few minutes to get there . </s>

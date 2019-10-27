@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+jack ! do you want to see a picture of my new puppy ? 
+
+Response samples:
+
+
+Response 1: not really , i am looking for a job . </s>
+
+Response 2: sure . i thought people only showed off pictures of their new babies , not new pets ! </s>
+
+Response 3: what kind of job is it ? </s>
+
+Response 4: have you ever tried ? </s>

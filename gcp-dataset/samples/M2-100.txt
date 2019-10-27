@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+excuse me , but can i draw on my account for payment of things i buy in china ? 
+
+Response samples:
+
+
+Response 1: certainly , sir . how much do you draw ? </s>
+
+Response 2: would you please help me ? </s>
+
+Response 3: have you finished them ? </s>
+
+Response 4: can you do that , please ? </s>

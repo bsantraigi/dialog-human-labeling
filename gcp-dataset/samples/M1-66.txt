@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+excuse me . 
+
+Response samples:
+
+
+Response 1: ok , thanks . i'm sorry . i'm sorry . i'm afraid i'm not a bit of a dancer . </s>
+
+Response 2: yes ? </s>
+
+Response 3: ok . what time is the matter ? </s>
+
+Response 4: thank you for your help . i'm sorry . i'm sorry . i'm afraid i'm not sure . </s>

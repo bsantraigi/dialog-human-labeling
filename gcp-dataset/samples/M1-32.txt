@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+do you plan to further your study ? 
+
+Response samples:
+
+
+Response 1: it is not that i'm not sure what i'll do . </s>
+
+Response 2: yes , i have been always learning the economics on my own . my dream is to get a master's degree in economics . </s>
+
+Response 3: no , i am not sure . i have a lot of work in my company . i have to go to the bank for a few days . </s>
+
+Response 4: no , i am not sure i am a little bit of a job . </s>

@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+excuse me . i need some storybooks in easy english . do you have anything <unk> ? 
+well , there are a lot of storybooks upstairs in our children ' s section . some are written for young children , others for <unk> . maybe some of them will suit your needs . 
+
+Response samples:
+
+
+Response 1: the is the most important thing in the world , the <unk> is a bit too expensive . </s>
+
+Response 2: i have a problem . i'm not sure if i can find a job in the city , but i can't find it . </s>
+
+Response 3: i'll go take a look . thanks for your help . </s>
+
+Response 4: no , i don't have any idea . i'll take a look at the <unk> . i'll take a look at the <unk> . i'll take a look at the <unk> .

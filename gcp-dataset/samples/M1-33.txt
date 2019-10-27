@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+do you plan to further your study ? 
+yes , i have been always learning the economics on my own . my dream is to get a master ' s degree in economics . 
+
+Response samples:
+
+
+Response 1: is the best for the most important thing in the world ? </s>
+
+Response 2: if you make every effort to the company , you will have a great chance to attend the on - the - job postgraduate . the tuition fee will be <unk> by our company . </s>
+
+Response 3: a good idea . i have to go to the bank for a while . i'm sure i can do it for you . </s>
+
+Response 4: a job is a very difficult to learn the english is a good idea to do . i think the government will be very good . </s>

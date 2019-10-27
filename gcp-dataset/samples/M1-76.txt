@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+what time does the museum close ? any idea ? 
+
+Response samples:
+
+
+Response 1: i'm not sure , but i think it's open until 4 o'clock . </s>
+
+Response 2: it is a little expensive . </s>
+
+Response 3: the is the first time , the <unk> is not too bad . </s>
+
+Response 4: no , i am not sure . </s>

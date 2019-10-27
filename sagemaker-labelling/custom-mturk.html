@@ -11,11 +11,10 @@
     categories="{{ task.input.labels }}"
     header="Pick the Most Appropriate Response to Dialog Context"
   >
-    <classification-target>
-    <iframe style="width: 100%; height: 300px;" src="{{ task.input.utterance }} " frameborder="0"></iframe>
-      
+    <classification-target id="target-dialog">
+    {{ task.input.utterance }}
     </classification-target>
-    
+
     <full-instructions header="Full Task Instructions">
         <h1>Dialog Response Selection</h1>
         <p>Each data sample consists of a base dialog context and several candidate responses. Your task is to choose the best response among all the candidates. Following is an example data sample,</p>
@@ -42,3 +41,15 @@
     </short-instructions>
   </crowd-classifier>
 </crowd-form>
+
+<script>
+function decodeHtml(html) {
+    var txt = document.createElement("textarea");
+    txt.innerHTML = html;
+    return txt.value;
+}
+var c = decodeHtml(document.getElementById("target-dialog").innerHTML);
+c = c.replace(/(?:\r\n|\r|\n)/g, '<br>');
+console.log(c);
+document.getElementById("target-dialog").innerHTML = c;
+</script>

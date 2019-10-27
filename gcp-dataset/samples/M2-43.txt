@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+how often does the bus run ? 
+every five minutes . 
+
+Response samples:
+
+
+Response 1: a lot of mine ? </s>
+
+Response 2: would you like to go ? </s>
+
+Response 3: oh , here comes a bus ! </s>
+
+Response 4: are you going to get there ? </s>

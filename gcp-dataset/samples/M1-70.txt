@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+i can ' t open this email attachment our paris office has sent me . 
+
+Response samples:
+
+
+Response 1: are you sure you're using the right program ? </s>
+
+Response 2: no problem ? the problem is the right one . the other one is a bit <unk> . the <unk> is a bit <unk> , and the other are not <unk> . </s>
+
+Response 3: a few weeks ago , i have to pay a lot of money . </s>
+
+Response 4: what is the problem ? </s>

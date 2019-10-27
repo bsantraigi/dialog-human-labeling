@@ -1,0 +1,14 @@
+Context:
+
+<d> 
+cindy . we were going to try to surprise you for your birthday . but you ’ re just too busy ! can you tell me when you ’ ll be free ? 
+oh , brian . that ’ s really sweet of you guys . i would love to get together with all of you . how about friday ? 
+
+Response samples:
+
+
+Response 1: no , not at all . we ’ ll have to go to the gym and get some of the new clothes . </s>
+
+Response 2: great ! what time ? </s>
+
+Response 3: no way not . if i have a few questions , i ’ ll have to go to the gym and get some of my friends . i ’ ll go to the beach and get some of my friends

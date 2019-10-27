@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+but ernie , we ' re still missing something . we need someone to play the music ! 
+
+Response samples:
+
+
+Response 1: not really . i'm not sure if i'm going to get a new one . </s>
+
+Response 2: yes , it's a bit of a big family . i can't believe it ! i can't believe it ! i can't believe it ! </s>
+
+Response 3: is it ? what about the movie ? it is a <unk> - <unk> . i've got a really good time to do . </s>
+
+Response 4: oh right ... you know , my friend eric is a dj . maybe he would like to play with us . </s>

@@ -1,0 +1,14 @@
+Context:
+
+<d> 
+mr . smith , do you like the hotel we booked ? 
+yes , we do . we like it very much . 
+
+Response samples:
+
+
+Response 1: are you sure ? </s>
+
+Response 2: have you got any other ideas ? </s>
+
+Response 3: i've come to make sure that your stay in beijing is a pleasant one . </s>

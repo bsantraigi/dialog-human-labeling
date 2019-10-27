@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+hello , is john in ? 
+no , can i take a message ? 
+
+Response samples:
+
+
+Response 1: what did you do ? </s>
+
+Response 2: what are you doing ? </s>
+
+Response 3: no , i'll call back later . </s>
+
+Response 4: please . </s>

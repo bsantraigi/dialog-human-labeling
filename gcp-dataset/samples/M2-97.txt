@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+can you help me out , chuck ? 
+sure . what ' s it , <unk> ? 
+
+Response samples:
+
+
+Response 1: i want to put my desk over there , but it's too heavy for me to move . </s>
+
+Response 2: what's the matter with the <unk> ? </s>
+
+Response 3: no one . you can't find it . </s>
+
+Response 4: let me see ... yes , your name is <unk> . </s>

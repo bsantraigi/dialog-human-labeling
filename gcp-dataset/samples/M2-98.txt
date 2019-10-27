@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+could you fill in this form , please ? 
+
+Response samples:
+
+
+Response 1: would you like a cup of coffee or a large one ? </s>
+
+Response 2: what would you like to drink ? </s>
+
+Response 3: all right . </s>

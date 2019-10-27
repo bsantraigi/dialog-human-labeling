@@ -1,0 +1,14 @@
+Context:
+
+<d> 
+excuse me . mr . emory ? 
+yes , ms . rodriguez ? how can i help you ? 
+
+Response samples:
+
+
+Response 1: i wanted to see if i could arrange a meeting with you to discuss recruitment . </s>
+
+Response 2: i've got a reservation for a single room for a bath , and i'm afraid we'd like to have a look at the menu . </s>
+
+Response 3: yes , this is the first time i have to go to the airport . i'd like to see a doctor . </s>

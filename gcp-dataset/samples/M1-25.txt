@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+here we are , joan . this is the palace museum , also known as the forbidden city . 
+
+Response samples:
+
+
+Response 1: is there a big family in the city ? the city is in the city centre . there is a lot of people in the city , so it is a bit of </s>
+
+Response 2: what is the problem ? </s>
+
+Response 3: oh , how splendid ! can you take a picture of me here ? </s>

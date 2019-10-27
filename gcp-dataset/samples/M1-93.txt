@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+staying out all night , you frightened me to death . 
+i stayed with my friends . 
+
+Response samples:
+
+
+Response 1: i'm sorry to hear that . i am going to go to the beach and get some of the new clothes in the city . i'm going to have a look at the <unk> </s>
+
+Response 2: are you a good student ? </s>
+
+Response 3: really , i am going to have to go to the beach . </s>
+
+Response 4: you should at least give me a call . </s>

@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+excuse me , sir , but you have to put your bags here before entering the market . 
+
+Response samples:
+
+
+Response 1: here's my card . </s>
+
+Response 2: oh . i am sorry . i was busy looking for some whisky . can you tell me the exactly place where i can find any ? </s>
+
+Response 3: yes , of course . </s>

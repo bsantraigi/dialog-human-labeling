@@ -1,0 +1,14 @@
+Context:
+
+<d> 
+excuse me . 
+yes ? 
+
+Response samples:
+
+
+Response 1: he is a <unk> - <unk> . </s>
+
+Response 2: good morning , mr . smith ? </s>
+
+Response 3: i bought this <unk> here yesterday but it doesn't work . </s>

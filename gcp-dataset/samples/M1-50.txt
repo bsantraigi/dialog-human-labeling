@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+hello , is john in ? 
+
+Response samples:
+
+
+Response 1: no , the day is a little too . i'm going to have a look at the <unk> . </s>
+
+Response 2: yes . is there anything i can do for you ? </s>
+
+Response 3: yes , mr . smith . </s>
+
+Response 4: no , can i take a message ? </s>

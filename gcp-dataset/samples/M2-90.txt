@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+hello , madam . how do you like your staying here ? 
+
+Response samples:
+
+
+Response 1: of course . </s>
+
+Response 2: quite good . excuse me , are there any places of interest ? </s>
+
+Response 3: just what ? </s>

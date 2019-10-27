@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+i ’ ve lost my purse . 
+
+Response samples:
+
+
+Response 1: let me see . </s>
+
+Response 2: why ? </s>
+
+Response 3: oh , dear . what was in it ? </s>
+
+Response 4: what did you do ? </s>

@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+ah , bob . just the person i wanted to see . 
+
+Response samples:
+
+
+Response 1: ok , it is . i'm afraid i'm not sure . </s>
+
+Response 2: so what is it ? </s>
+
+Response 3: yes , and it is not the same time . </s>
+
+Response 4: no , not at all . go ahead to the traffic lights . </s>

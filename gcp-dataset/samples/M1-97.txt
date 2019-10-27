@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+can you help me out , chuck ? 
+sure . what ' s it , <unk> ? 
+
+Response samples:
+
+
+Response 1: the is a big one with a bath and a bath of the red wine . it's a beautiful day . </s>
+
+Response 2: no problem . </s>
+
+Response 3: yes , a lot of money . i'm a little bit of a dancer . </s>
+
+Response 4: i want to put my desk over there , but it's too heavy for me to move . </s>

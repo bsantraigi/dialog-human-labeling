@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+but ernie , we ' re still missing something . we need someone to play the music ! 
+oh right ... you know , my friend eric is a dj . maybe he would like to play with us . 
+
+Response samples:
+
+
+Response 1: come on , not at all . go on ! let's go to the beach and get some of the <unk> ! </s>
+
+Response 2: no , we haven't . we've been waiting for a long time . we've been having a lot of time to do . we're going to have to wait for a while
+
+Response 3: what is it ? why don't you come in and see him ? </s>
+
+Response 4: hmm ... does he have a good ear for hip hop music ? </s>

@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+francis , you have done an outstanding work in the past six months . in view of your achievement , i trust you ’ re now indispensable part of our company and you deserve an officer director title 
+i am so happy to know that i could make some contribution to our company . 
+
+Response samples:
+
+
+Response 1: this title does not only give you a raising pay - check , but also increase responsibilities . congratulations , and hope the best for you . </s>
+
+Response 2: what would you say about this ? </s>
+
+Response 3: they are very helpful . </s>
+
+Response 4: can you tell me how to use the computer ? </s>

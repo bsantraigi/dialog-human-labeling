@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+i ’ ve lost my purse . 
+oh , dear . what was in it ? 
+
+Response samples:
+
+
+Response 1: the weather is really nice . </s>
+
+Response 2: all my money . </s>
+
+Response 3: have you got the flu ? </s>
+
+Response 4: just what ? </s>

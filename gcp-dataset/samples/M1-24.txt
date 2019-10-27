@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+our new production control program ' s going live on monday . the old and the new programs will operate in <unk> for four to six weeks . that should give us time to iron out any little 
+
+Response samples:
+
+
+Response 1: yes , that's right . </s>
+
+Response 2: no , thanks . i'm afraid i'll be able to get the <unk> of the new house . </s>
+
+Response 3: a good idea , the food is a little bit of the <unk> . the <unk> is a bit of the <unk> to the <unk> . we can't do it , but we'll </s>
+
+Response 4: hope it all goes well . we're very busy at the moment and certainly don't want any problems at this time of year . </s>

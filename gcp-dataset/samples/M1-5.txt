@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+so that <unk> the introduction . now let ' s move to the first part of my talk , which is about 2006 <unk> year marketing plan . so first , right off the bat , when looking 
+
+Response samples:
+
+
+Response 1: is the right place to be in the city ? it's a <unk> . </s>
+
+Response 2: we wanted to appeal to a younger set of consumers and also , in line with that goal , redo our image ... </s>
+
+Response 3: is it true ? </s>
+
+Response 4: it is a kind of our company to have a good time to meet the world in the world . the world is very important to us . i think that the company will be the best part of the

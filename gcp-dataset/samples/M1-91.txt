@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+hello , madam . how do you like your staying here ? 
+quite good . excuse me , are there any places of interest ? 
+
+Response samples:
+
+
+Response 1: certainly . please fill in this form and take your luggage to the room . and the other room is on the corner . </s>
+
+Response 2: yes , there are so many near our <unk> . three blocks away from here , there is temple . it's famous for its building and paintings . lt's worth visiting . </s>
+
+Response 3: ok , there are some things i need to buy some new furniture . i like to buy a new one . i want to buy some new furniture . </s>
+
+Response 4: no , no , the one is a bit of a big one . the one is a bit of the <unk> . it's a very nice place to see the world . </s>

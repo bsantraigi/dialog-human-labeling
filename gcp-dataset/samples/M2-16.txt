@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+once you arrive at the american airport , please call me . 
+
+Response samples:
+
+
+Response 1: ok , don ’ t worry about it . i will . </s>
+
+Response 2: you should take a bus to get there at the corner . </s>
+
+Response 3: yes , i did . </s>
+
+Response 4: thank you . </s>

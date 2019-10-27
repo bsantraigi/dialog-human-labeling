@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+i ' m so sorry about your brother , mr . wang . 
+
+Response samples:
+
+
+Response 1: no , not . </s>
+
+Response 2: good morning , mr . smith . i'm calling to confirm you for a while . </s>
+
+Response 3: thanks , jane . </s>

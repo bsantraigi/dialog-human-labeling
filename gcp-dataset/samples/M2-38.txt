@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+francis , you have done an outstanding work in the past six months . in view of your achievement , i trust you ’ re now indispensable part of our company and you deserve an officer director title 
+
+Response samples:
+
+
+Response 1: let me see . i ’ m afraid i ’ m not sure . i ’ m a bit nervous about this job . </s>
+
+Response 2: is she ? </s>
+
+Response 3: have you been working ? </s>
+
+Response 4: i am so happy to know that i could make some contribution to our company . </s>

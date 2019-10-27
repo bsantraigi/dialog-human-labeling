@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+hello , i brought a lap - top computer with me . do you know how can i use the internet in my room ? 
+
+Response samples:
+
+
+Response 1: you need to get some <unk> . </s>
+
+Response 2: well , right now , we can't afford internet use in the rooms . but you can go to the web bar in our hotel . it's on the 12 floor . </s>
+
+Response 3: just here . </s>

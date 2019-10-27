@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+i ’ ve lost my purse . 
+
+Response samples:
+
+
+Response 1: not too bad . </s>
+
+Response 2: oh , dear . what was in it ? </s>
+
+Response 3: how about you ? </s>

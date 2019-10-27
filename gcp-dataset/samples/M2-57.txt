@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+where can i find the produce ? 
+aisle a is where you ' ll find all the produce . 
+
+Response samples:
+
+
+Response 1: what is it ? </s>
+
+Response 2: i can't agree with it . i'm afraid it's a bit too expensive . </s>
+
+Response 3: have you got any other clothes ? </s>
+
+Response 4: what sales do they have today ? </s>

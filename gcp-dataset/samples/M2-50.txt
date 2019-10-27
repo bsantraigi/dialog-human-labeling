@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+hello , is john in ? 
+
+Response samples:
+
+
+Response 1: i'm not sure . </s>
+
+Response 2: what is your favorite ? </s>
+
+Response 3: they are in the park , aren't they ? </s>
+
+Response 4: no , can i take a message ? </s>

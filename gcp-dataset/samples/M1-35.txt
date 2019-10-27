@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+jack ! do you want to see a picture of my new puppy ? 
+sure . i thought people only showed off pictures of their new babies , not new pets ! 
+
+Response samples:
+
+
+Response 1: no , it is . what's the matter ? </s>
+
+Response 2: what's the matter with the <unk> ? </s>
+
+Response 3: good idea is it ? </s>
+
+Response 4: well , this is my new baby . he ’ s just as much trouble . that ’ s for sure ! but , he ’ s a lot of fun ! </s>

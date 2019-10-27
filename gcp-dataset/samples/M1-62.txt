@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+cindy . we were going to try to surprise you for your birthday . but you ’ re just too busy ! can you tell me when you ’ ll be free ? 
+
+Response samples:
+
+
+Response 1: no , thanks . i just want to see you off at the moment . i ’ m going to the party tonight . i ’ m going to the party tonight . </s>
+
+Response 2: no no . not , i have to go to the gym and get a new one . i ’ m going to have to look at the <unk> of the city , but i ’ m afraid i ’
+
+Response 3: a little bit ? thanks ! </s>
+
+Response 4: oh , brian . that ’ s really sweet of you guys . i would love to get together with all of you . how about friday ? </s>

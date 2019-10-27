@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+could you type up this document for me , sandra ? 
+
+Response samples:
+
+
+Response 1: of course ? is it a good idea to do with the work ? </s>
+
+Response 2: no , no . no , i'm not sure . i'm going to have to look at the <unk> . i'm going to have to look at the <unk> . </s>
+
+Response 3: sure , but i have to finish this report first . </s>

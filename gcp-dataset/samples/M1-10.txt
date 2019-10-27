@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+this is your schedule . 
+
+Response samples:
+
+
+Response 1: is there anything i can do ? </s>
+
+Response 2: what is the problem ? </s>
+
+Response 3: you're going out of your way for us , i believe . </s>
+
+Response 4: no , thanks . it's not a long time . </s>

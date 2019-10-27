@@ -1,0 +1,14 @@
+Context:
+
+<d> 
+hi , sally ! you are talking to the proud father of a new baby girl ! 
+congratulations , bob ! that ’ s great news , what ’ s her name ? 
+
+Response samples:
+
+
+Response 1: we ’ ve named her alice after my wife ’ s grandmother . </s>
+
+Response 2: she would be nice . </s>
+
+Response 3: not a bad thing . </s>

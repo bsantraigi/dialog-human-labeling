@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+what should be put in my education background ? 
+
+Response samples:
+
+
+Response 1: have you ever tried the job ? </s>
+
+Response 2: you are expected to write the educational experience about your high school and college , even the time <unk> . </s>
+
+Response 3: are you planning to have a look at the company ? </s>

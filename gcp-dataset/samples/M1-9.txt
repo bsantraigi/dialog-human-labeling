@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+hello , mary . 
+
+Response samples:
+
+
+Response 1: no , the <unk> , the <unk> , the <unk> , the <unk> , and the other are not the same . </s>
+
+Response 2: oh , hello , tom ! beautiful day , isn ’ t it ? </s>
+
+Response 3: a good one ? the <unk> is a little <unk> . </s>
+
+Response 4: the right is the right . the bus is right . </s>

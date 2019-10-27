@@ -3,6 +3,11 @@ import re
 import boto3
 from botocore.exceptions import ClientError
 
+def get_object(s3, s3Uri):
+    m = re.match(r"s3:\/\/(.+?)\/(.+)", s3Uri)
+    bucket, key = m.group(1), m.group(2)
+    return s3.get_object(Bucket=bucket, Key=key)["Body"].read().decode()
+
 def lambda_handler(event, context):
     # TODO implement
     source = event['dataObject']['source'] if "source" in event['dataObject'] else None
@@ -11,7 +16,8 @@ def lambda_handler(event, context):
     if source_ref is not None:
         s3 = boto3.client('s3')
         # try:
-        source_ref = s3.get_object(Bucket="sagemaker-dialog-label-demo", Key="samples/M1-10.txt")["Body"].read().decode()
+        source_ref = get_object(s3, source_ref)
+        # s3.get_object(Bucket="sagemaker-dialog-label-demo", Key="samples/M1-10.txt")["Body"].read().decode()
         # except ClientError as e:
         #     # AllAccessDisabled error == bucket or object not found
         #     source_ref = str(e)
@@ -22,6 +28,6 @@ def lambda_handler(event, context):
     return {
         "taskInput": {
             "utterance": task_object,
-            "labels": str(["Response 1","Response 2","Response 3","Response 4"])
+            "labels": str(["Response 1", "Response 2", "Response 3", "Response 4"])
         }
     }

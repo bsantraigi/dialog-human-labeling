@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+what should be put in my education background ? 
+
+Response samples:
+
+
+Response 1: no , i can't afford to use the internet to the bank , but i'm not sure if i can get a job . </s>
+
+Response 2: the the morning , the <unk> of the <unk> of the <unk> of the <unk> . </s>
+
+Response 3: you are expected to write the educational experience about your high school and college , even the time <unk> . </s>
+
+Response 4: yes , i have been working on the internet . i'm not sure . </s>

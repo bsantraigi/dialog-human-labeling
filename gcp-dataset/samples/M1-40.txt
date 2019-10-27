@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+marry wang ' s office , this is marry . 
+
+Response samples:
+
+
+Response 1: yes , is it ? </s>
+
+Response 2: have you been there ? </s>
+
+Response 3: hi marry , this is tom . </s>

@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+so how can i make it ? 
+first you make a list of what you wanna buy ... 
+
+Response samples:
+
+
+Response 1: the the problem is the most important thing in the world . </s>
+
+Response 2: but i ’ ve gotta have the <unk> before anything else . </s>
+
+Response 3: is there anything else you can do for you ? </s>
+
+Response 4: the problem . </s>

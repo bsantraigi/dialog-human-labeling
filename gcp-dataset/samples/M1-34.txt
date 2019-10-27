@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+jack ! do you want to see a picture of my new puppy ? 
+
+Response samples:
+
+
+Response 1: yes , you're right . we can go to the beach and have a look at the end of the city . we can go to the beach and get some of the <unk> . </s>
+
+Response 2: sure . i thought people only showed off pictures of their new babies , not new pets ! </s>
+
+Response 3: yes , it does . i am not sure . i'm going to the <unk> to get a new one . </s>
+
+Response 4: no , the <unk> is a bit of the <unk> . </s>

@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+excuse me . i need some storybooks in easy english . do you have anything <unk> ? 
+
+Response samples:
+
+
+Response 1: yes , i am a little bit of a bit more than a few years . i have a lot of work to do . i really need to do some things to help me with my friends . </s>
+
+Response 2: is ? </s>
+
+Response 3: well , there are a lot of storybooks upstairs in our children's section . some are written for young children , others for <unk> . maybe some of them will suit your needs . </s>
+
+Response 4: no , thanks . the food is too hot . </s>

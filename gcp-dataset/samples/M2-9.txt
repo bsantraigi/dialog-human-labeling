@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+hello , mary . 
+
+Response samples:
+
+
+Response 1: oh , hello , tom ! beautiful day , isn ’ t it ? </s>
+
+Response 2: did you hear ? </s>
+
+Response 3: did you see the movie ? </s>
+
+Response 4: nice to meet you . </s>

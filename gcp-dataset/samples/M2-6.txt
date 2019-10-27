@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+i have been very busy this year , working late , often taking work home and taking no vacation . i feel exhausted . 
+
+Response samples:
+
+
+Response 1: would you like to have a look at your house ? </s>
+
+Response 2: what do you have in mind ? </s>
+
+Response 3: you should ask for a holiday and relax yourself for a little bit . you worked so hard . </s>

@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+how are you doing , jim ? 
+
+Response samples:
+
+
+Response 1: a a a bit a bit a bit a bit . </s>
+
+Response 2: a little bit about a while a day . a few minutes ago , i was a bit nervous about the last few months . i was really busy with my boss , but i didn't know what
+
+Response 3: yes , the <unk> . </s>
+
+Response 4: fine , just fine . how about you ? </s>

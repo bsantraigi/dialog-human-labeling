@@ -1,0 +1,14 @@
+Context:
+
+<d> 
+excuse me . i need some storybooks in easy english . do you have anything <unk> ? 
+well , there are a lot of storybooks upstairs in our children ' s section . some are written for young children , others for <unk> . maybe some of them will suit your needs . 
+
+Response samples:
+
+
+Response 1: are they all right ? </s>
+
+Response 2: i'll go take a look . thanks for your help . </s>
+
+Response 3: are you going to have to pay for it ? </s>

@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+staying out all night , you frightened me to death . 
+
+Response samples:
+
+
+Response 1: yes , that's right . </s>
+
+Response 2: i stayed with my friends . </s>
+
+Response 3: is it ? i mean , i am going to get a new one . i'm going to get a new one . i'm going to get a new one . </s>
+
+Response 4: is that the right bus to go to the cinema to go to the cinema ? i want to see you off at the airport . </s>

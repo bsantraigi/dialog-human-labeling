@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+tom , it ' s time for you to go to bed . 
+
+Response samples:
+
+
+Response 1: is it really ? </s>
+
+Response 2: yes , thanks . </s>
+
+Response 3: good night , mum . </s>
+
+Response 4: the problem is not too bad . </s>

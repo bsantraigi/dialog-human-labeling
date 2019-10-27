@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+hello , madam . how do you like your staying here ? 
+quite good . excuse me , are there any places of interest ? 
+
+Response samples:
+
+
+Response 1: a bit . </s>
+
+Response 2: do you have any idea ? </s>
+
+Response 3: yes , there are so many near our <unk> . three blocks away from here , there is temple . it's famous for its building and paintings . lt's worth visiting . </s>
+
+Response 4: our hotel is $ 1 . </s>

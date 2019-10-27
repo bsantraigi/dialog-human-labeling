@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+you look great ! how do you stay in such good shape ? 
+
+Response samples:
+
+
+Response 1: why don't you go there ? </s>
+
+Response 2: you can't find out . </s>
+
+Response 3: well , i go jogging every morning , eat a <unk> diet and work out in a gymnasium twice a week . </s>
+
+Response 4: not . </s>

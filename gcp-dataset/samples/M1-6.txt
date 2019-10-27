@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+i have been very busy this year , working late , often taking work home and taking no vacation . i feel exhausted . 
+
+Response samples:
+
+
+Response 1: how's it going to be there ? i've been thinking of going to a party for a while . </s>
+
+Response 2: it's a great idea to meet you , but i'm not sure if you would like to go to the movies . </s>
+
+Response 3: you should ask for a holiday and relax yourself for a little bit . you worked so hard . </s>
+
+Response 4: no problem , just a moment . and i'll be able to get you to the airport to see you . </s>

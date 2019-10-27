@@ -1,0 +1,14 @@
+Context:
+
+<d> 
+what should be put in my education background ? 
+you are expected to write the educational experience about your high school and college , even the time <unk> . 
+
+Response samples:
+
+
+Response 1: why not ? </s>
+
+Response 2: are they all right ? </s>
+
+Response 3: what do you mean by'job intentions'? </s>

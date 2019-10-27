@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+i don ' t think we can meet the delivery date you suggest . it ' s too soon . 
+
+Response samples:
+
+
+Response 1: the next bus is a little bit of the <unk> . the <unk> is a bit of the <unk> . </s>
+
+Response 2: well , is it possible for you to effect shipment by the middle of june ? </s>
+
+Response 3: , it's a bit of a bit of a big one , and it's not a big one . </s>
+
+Response 4: is there a problem in the city , but i can't find it . i can't find it . </s>

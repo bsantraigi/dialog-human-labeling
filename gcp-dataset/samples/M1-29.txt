@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+mr . smith , do you like the hotel we booked ? 
+yes , we do . we like it very much . 
+
+Response samples:
+
+
+Response 1: very good . could you please tell me the way to the station ? i'd like to buy some <unk> for my wife . </s>
+
+Response 2: a good one for the next week ? </s>
+
+Response 3: i've come to make sure that your stay in beijing is a pleasant one . </s>
+
+Response 4: , it's not the same . </s>

@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+what are the attractions of that city ? 
+it ' s famous for beautiful countryside with clean air . 
+
+Response samples:
+
+
+Response 1: oh , that's what i am looking for . do you have a reduction for 6 persons ? </s>
+
+Response 2: good idea , i'm afraid i've got to get a new one . i'm going to get a new one . </s>
+
+Response 3: i've got a lot of money , but i'm not sure if it's a good idea to do . </s>
+
+Response 4: what a a pity is that ? i don't like the <unk> of the <unk> . i'm not sure . </s>

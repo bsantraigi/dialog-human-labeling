@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+hi , sally ! you are talking to the proud father of a new baby girl ! 
+
+Response samples:
+
+
+Response 1: yes , no , but my husband is a little girl . i think he's a good guy . he is a very good guy . </s>
+
+Response 2: how about this ? it's a <unk> ! i've been so busy , and i'm not sure . </s>
+
+Response 3: a good idea is a good idea to a friend who a friend of the family and a girl of the family ? </s>
+
+Response 4: congratulations , bob ! that ’ s great news , what ’ s her name ? </s>

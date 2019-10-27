@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+i don ' t think we can meet the delivery date you suggest . it ' s too soon . 
+
+Response samples:
+
+
+Response 1: what do you think ? </s>
+
+Response 2: well , is it possible for you to effect shipment by the middle of june ? </s>
+
+Response 3: are you sure you're going to the movies ? </s>
+
+Response 4: would you like me to help you ? </s>

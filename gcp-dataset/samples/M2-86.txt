@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+what kind of job do you intend to do ? 
+
+Response samples:
+
+
+Response 1: have you ever tried the <unk> of the <unk> ? </s>
+
+Response 2: i want to do some management job since i have three - year's work history . </s>
+
+Response 3: what are you going to do ? </s>
+
+Response 4: to be honest , and you ? </s>

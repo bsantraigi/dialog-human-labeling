@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+an idea about killing time on a train ? 
+
+Response samples:
+
+
+Response 1: a little bit of a bit . </s>
+
+Response 2: i advise you to read <unk> . you can get a lot from it . </s>
+
+Response 3: no , the is the first time of the day . </s>
+
+Response 4: yes , it's a bit too long . the weather is very heavy , and the winter is too hot . </s>

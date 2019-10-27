@@ -1,0 +1,14 @@
+Context:
+
+<d> 
+hi , jane . how are you doing this morning ? 
+i ’ m all right , thanks . just a little tired . 
+
+Response samples:
+
+
+Response 1: a new one ? a girl is a nice place . </s>
+
+Response 2: i ’ ve been working too hard . you ’ re a little tired . </s>
+
+Response 3: late night ? </s>

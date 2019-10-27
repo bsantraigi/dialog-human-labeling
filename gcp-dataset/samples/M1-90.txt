@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+hello , madam . how do you like your staying here ? 
+
+Response samples:
+
+
+Response 1: how are you from the new york to new york ? </s>
+
+Response 2: quite good . excuse me , are there any places of interest ? </s>
+
+Response 3: yes , i am calling to the bank manager , please . i am calling to confirm my appointment for the interview . i'd like to know if you have a reservation for the next week . </s>
+
+Response 4: good morning , mr . smith . i have a reservation . </s>

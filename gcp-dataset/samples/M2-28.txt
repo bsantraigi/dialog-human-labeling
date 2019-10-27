@@ -1,0 +1,13 @@
+Context:
+
+<d> 
+mr . smith , do you like the hotel we booked ? 
+
+Response samples:
+
+
+Response 1: thank you . </s>
+
+Response 2: yes , we do . we like it very much . </s>
+
+Response 3: thanks . </s>

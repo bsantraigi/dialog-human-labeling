@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+excuse me , sir . is there anything i can do for you ? 
+
+Response samples:
+
+
+Response 1: yes . i bought the can two days ago , but today i found that is beyond the guarantee period . </s>
+
+Response 2: that's a problem . </s>
+
+Response 3: no , sir . is there anything i can do for you ? </s>
+
+Response 4: a single room , please . the room is on the corner . the room is on the corner . </s>

@@ -1,0 +1,16 @@
+Context:
+
+<d> 
+excuse me . 
+yes ? 
+
+Response samples:
+
+
+Response 1: yes , mr . smith . my name is <unk> - <unk> - <unk> - e - e - e - e - e - e - e - e - e - e - e - e - e
+
+Response 2: could you tell me where the copy room is ? </s>
+
+Response 3: yes , the morning is coming to the hospital . the bus is not to be in the middle of the city . </s>
+
+Response 4: the doctor will be the best . </s>

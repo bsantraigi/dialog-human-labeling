@@ -1,0 +1,15 @@
+Context:
+
+<d> 
+this is your schedule . 
+
+Response samples:
+
+
+Response 1: are you a good student ? </s>
+
+Response 2: really ? i'm sorry , but i'm not sure . </s>
+
+Response 3: thank you for your help . </s>
+
+Response 4: you're going out of your way for us , i believe . </s>
