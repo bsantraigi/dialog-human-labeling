@@ -9,24 +9,9 @@
 
      <!-- Prevent crowd-form from creating its own button -->
     <crowd-button form-action="submit" style="display: none;"></crowd-button>
-    <input hidden id="data" value='{{ task.input.data }}'><input>
-    <input hidden id="source-ids" value='{{ task.input.ids }}'><input>
+    <input hidden id="data" name="data" value='{{ task.input.data }}'>
+    <input hidden id="source-ids" name="source-ids" value='{{ task.input.ids }}'>
 </crowd-form>
-
-<!--crowd-form>
-  <crowd-classifier
-    name="response"
-    categories="{{ task.input.labels }}"
-    header="Pick the Most Appropriate Response to Dialog Context"
-  >
-    <classification-target id="target-dialog">
-    Dialog to go here
-    </classification-target>
-
-    <input hidden id="data" value='{{ task.input.data }}'><input>
-  </crowd-classifier>
-
-</crowd-form-->
 
 
 <!-- Optional JavaScript -->
@@ -217,12 +202,12 @@
 
     var hit_template = $("#hit-template").html();
 
-    var ground_truth = {};
+    var ground_truths = {};
     for (var i=0; i < data.length; i++){
         var hit_obj = $(hit_template);
         hit_obj.find("#annot-id").html("Annotation Task #" + (i+1));
-        _id = "id", "D_"+source_ids[i];
-        hit_obj.find("form").attr(_id);
+        _id = "D_"+source_ids[i];
+        hit_obj.find("form").attr("id", _id);
 
         turns = [];
         for (var k in data[i]){
@@ -251,11 +236,11 @@
         if(Math.random() > 0.5){
             // AI
             addMessage(T, turns[T]['resgen'], true);
-            ground_truth[_id] = 'ai';
+            ground_truths[_id] = 'ai';
         }else{
             // Human
-            ground_truth[_id] = 'human';
             addMessage(T, turns[T]['gold'], true);
+            ground_truths[_id] = 'human';
         }
 
         $("#root").append(hit_obj);
