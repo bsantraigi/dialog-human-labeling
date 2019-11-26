@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="design-style.css">
+    <!--<link rel="stylesheet" type="text/css" href="style.css">-->
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <div class="jumbotron text-center">
+        <h2>Turing Test for Artificially Intelligent Dialog System</h2>
+    </div>
+
+
+    <div class="container">
+        <div id="nonsense">
+            <h3>Instructions</h3>
+            <ol>
+                <li><strong>Read</strong> the dialog history/<strong>context</strong> carefully.</li>
+                <li><strong>Read</strong> the <strong>individual</strong> <strong>responses</strong> carefully.</li>
+                <li><strong>Choose the response label</strong> that best suits the context in terms of grammatical correctness and coherence to the context.</li>
+                <li>Read the <strong>example</strong> in <strong>full instructions</strong> to understand more about the task.</li>
+            </ol>
+            <p>
+              <button class="btn btn-link" type="button" data-toggle="modal" data-target="#exampleModal" aria-expanded="false" aria-controls="collapseExample">
+                See Full Instructions
+              </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Full Instructions</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h4>Dialog Response Selection</h4>
+                    <p>Each data sample consists of a base dialog context and several candidate responses. Your task is to choose the best response among all the candidates. Following is an example data sample,</p>
+                    <p><br />
+                        <img
+                                class="img-fluid" style="display: block; margin-left: auto; margin-right: auto; "
+                                src="https://i.stack.imgur.com/U93bk.png" alt="Instructions"
+                        />
+                    </p>
+                      <!--width="595" height="455"-->
+                    <p>In above example, the dialog context is <em>&ldquo;hello , i brought a lap - top computer with me . do you know how can i use the internet in my room ? &ldquo;.&nbsp;</em></p>
+                    <p>There are 3 candidate responses available in this sample, you have to choose the best one among these. If you think <em>Response 1 </em>is the best available response, please label this as <em>1.</em></p>
+                    <p>For comparing the available responses you need to consider two aspects of the responses,&nbsp;</p>
+                    <ul>
+                    <li><em>Coherence of the response to the dialog context.</em></li>
+                    </ul>
+                    <ul>
+                    <li>Grammatical correctness of the response.</li>
+                    </ul>
+                    <p><br /><br /></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+
+              </div>
+            </div>
+        </div>
+
+        <div class="task">
+            <h4>Annotation Task #1</h4>
+            <div class="container">
+                <ul class="list-group mb-3">
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                        <img src="user1.png" alt="User 0" style="max-height: 40px" class="img-fluid">
+                        <p class="message">Howdy, I need a train heading into cambridge.</p>
+                    </li>
+                </ul>
+                <ul class="list-group mb-3">
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                        <p class="message">I would be happy to help you find a train.  Where are you departing from?</p>
+                        <img src="user2.png" alt="User 0" style="max-height: 40px" class="img-fluid">
+                    </li>
+                </ul>
+                <ul class="list-group mb-3">
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                        <img src="user1.png" alt="User 0" style="max-height: 40px" class="img-fluid">
+                        <p class="message">I am departing from norwich.  I need to leave after 18:45 on Wednesday.</p>
+                    </li>
+                </ul>
+                <ul class="list-group mb-3">
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                        <p  class="message">I have several options for you. Where is your destination?</p>
+                        <img src="user2.png" alt="User 0" style="max-height: 40px" class="img-fluid">
+                    </li>
+                </ul>
+                <ul class="list-group mb-3">
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                        <p class="message"><unk> leaves cambridge at 05 01 . would you like to book a train ?</p>
+                        <img src="unknown.jpg" alt="User 0" style="max-height: 40px" class="img-fluid">
+                    </li>
+                </ul>
+                <form>
+                    <div class="container">
+                      <div class="row justify-content-center">
+                            <div class="col-5">
+                                <label class="btn btn-danger btn-block">
+                                    <input type="radio" name="options" id="option1"> AI
+                                </label>
+                            </div>
+                          <div class="col-5">
+                              <label class="btn btn-success btn-block">
+                                  <input type="radio" name="options" id="option2"> Human
+                              </label>
+                          </div>
+                      </div>
+                    </div>
+
+                    <!--<button type="submit" class="btn btn-primary">Submit</button>-->
+
+                </form>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2019 Copyright: Annotation Tool </div>
+    </div>
+
+
+  </body>
+</html>

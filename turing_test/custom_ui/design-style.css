@@ -1,0 +1,15 @@
+.task {
+    background-color: #e8e8e8;
+    padding: 24px 45px;
+}
+
+p.message{
+	font-family: Georgia, serif;
+	font-size: 16px;
+	letter-spacing: 0.6px;
+	word-spacing: -0px;
+	color: #000000;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: none;
+}

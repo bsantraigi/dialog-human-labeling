@@ -1,0 +1,44 @@
+
+
+.darker {
+	text-align:right;
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.ai0 {
+	text-align:left;
+  border-color: #d66074;
+  background-color: #f5bdbd;
+}
+
+.ai1 {
+	text-align:right;
+  border-color: #d66074;
+  background-color: #f5bdbd;
+}
+
+
+
+.chat-container p{
+	font-family: Georgia, serif;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	word-spacing: -0px;
+	color: #000000;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: italic;
+	text-transform: none;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+

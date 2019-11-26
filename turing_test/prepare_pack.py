@@ -6,15 +6,12 @@ pack_name = "PACK_resgen_multiwoz"
 pack_path = f"data/{pack_name}/"
 bucket_path = "sagemaker-dialog-label-demo"
 
-if not os.path.isdir(os.path.join(pack_path, 'files')):
-    os.makedirs(os.path.join(pack_path, 'files'))
-
 all_test_subjects = []
 
 with open(os.path.join(pack_path, 'predictions.json')) as f:
     for i, x in enumerate(f):
         obj = json.loads(x)
-        obj['id'] = f'D_{i}'
+        obj['id'] = f'{i}'
         all_test_subjects.append(obj)
 
 """
@@ -34,5 +31,6 @@ with open(os.path.join(pack_path, 'manifest.json'), "w") as awsf:
         y = x + per_person
         tests = all_test_subjects[x:y]
         awsf.write(json.dumps({
-            'source-ids': ','.join(test['id'] for test in tests)
+            'source-ids': ','.join(test['id'] for test in tests),
+            'predictions': 's3://sagemaker-dialog-label-demo/PACK_resgen_multiwoz/predictions.json'
         }) + "\n")

@@ -1,25 +1,32 @@
 import json
 import re
+import boto3
+from botocore.exceptions import ClientError
+
+
+def get_object(s3, s3Uri):
+    m = re.match(r"s3:\/\/(.+?)\/(.+)", s3Uri)
+    bucket, key = m.group(1), m.group(2)
+    return s3.get_object(Bucket=bucket, Key=key)["Body"].read().decode()
 
 
 def lambda_handler(event, context):
-    # TODO implement
-    source = event['dataObject']['source'] if "source" in event['dataObject'] else None
-    source_ref = event['dataObject']['source-ref'] if "source-ref" in event['dataObject'] else None
+    s3 = boto3.client('s3')
 
-    # if source_ref is not None:
-    #     from urllib.request import urlopen
-    #     try:
-    #         source_ref = urlopen(source_ref).read().decode()
-    #         source_ref = re.sub(r"\n", "<br>", source_ref)
-    #     except Exception as e:
-    #         source_ref = str(e)
+    # HITs
+    source_ids = list(map(int, event['dataObject']['source-ids'].split(",")))
+    print(source_ids)
 
-    task_object = source if source is not None else source_ref
+    # Predictions
+    predictions = event['dataObject']['predictions']
+    predictions = get_object(s3, predictions)
+    lines = predictions.split("\n")
+    tests = [json.loads(line) for line in lines if len(line) > 0]
+    tests = [test for test in tests if test['id'] in source_ids]
 
     return {
         "taskInput": {
-            "utterance": task_object,
-            "labels": str(["Response 1", "Response 2", "Response 3", "Response 4"])
+            "data": tests,
+            "labels": str(["AI", "Human"])
         }
     }
