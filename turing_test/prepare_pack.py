@@ -31,6 +31,6 @@ with open(os.path.join(pack_path, 'manifest.json'), "w") as awsf:
         y = x + per_person
         tests = all_test_subjects[x:y]
         awsf.write(json.dumps({
-            'source-ids': ','.join(test['id'] for test in tests),
+            'source': ','.join(test['id'] for test in tests),
             'predictions': 's3://sagemaker-dialog-label-demo/PACK_resgen_multiwoz/predictions.json'
         }) + "\n")
