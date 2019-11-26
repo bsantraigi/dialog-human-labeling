@@ -18,6 +18,7 @@ p.message{
 
 form {
     font-family: 'Lato', sans-serif;
+    height: auto !important;
 }
 
 /* Hide the browser's default radio button */
