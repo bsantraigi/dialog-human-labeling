@@ -2,12 +2,15 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="https://perpetual-static-cdn.s3.amazonaws.com/resgen-annotation/design-style.css">
 
-<crowd-form hidden>
+<crowd-form>
+    <!--<input name="annotations" id="annotations" type="hidden">-->
+    <input name="ground_truths" id="ground_truths" type="hidden">
     <input name="annotations" id="annotations" type="hidden">
 
      <!-- Prevent crowd-form from creating its own button -->
     <crowd-button form-action="submit" style="display: none;"></crowd-button>
     <input hidden id="data" value='{{ task.input.data }}'><input>
+    <input hidden id="source-ids" value='{{ task.input.ids }}'><input>
 </crowd-form>
 
 <!--crowd-form>
@@ -36,6 +39,24 @@
     <h2>Turing Test for Artificially Intelligent Dialog System</h2>
 </div>
 
+<div class="modal fade" id="incompleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="alertLabel">Alert</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Hello there, please annotate all the data points and then press "Submit".
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="container">
     <div id="nonsense">
@@ -98,7 +119,10 @@
 
     <div id="root"></div>
 
-    <div class="footer-copyright text-center py-3">© 2019 Copyright: Annotation Tool </div>
+    <div align="center" class="mt-3">
+        <crowd-button id="submitButton">Submit</crowd-button>
+    </div>
+    <div class="footer-copyright text-center py-3">© 2019 Copyright: Bishal Santra </div>
 </div>
 
 
@@ -115,7 +139,7 @@
                         <label class="btn btn-danger btn-block input-container">
                             <div class="row justify-content-center">
                                 <div class="col-5" align="right">
-                                    <input type="radio" name="options" id="option1">
+                                    <input type="radio" name="options" species="ai">
                                     <span class="checkmark"></span>
                                 </div>
                                 <div class="col-5" align="left">
@@ -128,7 +152,7 @@
                         <label class="btn btn-success btn-block input-container">
                             <div class="row justify-content-center">
                                 <div class="col-4" align="right">
-                                    <input type="radio" name="options" id="option2">
+                                    <input type="radio" name="options" species="human">
                                     <span class="checkmark"></span>
                                 </div>
                                 <div class="col-5" align="left">
@@ -184,8 +208,7 @@
 
 <script>
     var data = JSON.parse($("#data").val());
-    //var data = {{ task.input.data }};
-    //var data=[{"0":{"gold":"I need to book a hotel in the east that has 4 stars.  ","user-x":0},"1":{"gold":"I can help you with that. What is your price range?","resgen":"i have 2 hotels in the east part of town . would you like to book a room ?","user-x":1},"2":{"gold":"That doesn't matter as long as it has free wifi and parking.","resgen":"i would like to stay in the moderate price range .","user-x":0},"3":{"gold":"If you'd like something cheap, I recommend the Allenbell. For something moderately priced, I would recommend the Warkworth House.","resgen":"i have a 4 star hotel in the west . would you . have a . . ?","user-x":1},"4":{"gold":"Could you book the Wartworth for one night, 1 person?","resgen":"yes , i would like to book a room for 4 people .","user-x":0},"5":{"gold":"What day will you be staying?","resgen":"i have the reservation for you . your reference number is <unk> .","user-x":1},"6":{"gold":"Friday and Can you book it for me and get a reference number ?","resgen":"i need to book it for 3 people .","user-x":0},"7":{"gold":"Booking was successful.\nReference number is : BMUKPTG6.  Can I help you with anything else today?","resgen":"i was able to book the <unk> for you . reference number <unk>","user-x":1},"8":{"gold":"I am looking to book a train that is leaving from Cambridge to Bishops Stortford on Friday. ","resgen":"i am also looking for a train to cambridge .","user-x":0},"9":{"gold":"There are a number of trains leaving throughout the day.  What time would you like to travel?","resgen":"i have several trains that leaves you need to arrive by ?","user-x":1}},{"0":{"gold":"Howdy, I need a train heading into cambridge.","user-x":0},"1":{"gold":"I would be happy to help you find a train.  Where are you departing from?","resgen":"there are several trains that meet your needs . what day would you like to travel ?","user-x":1},"2":{"gold":"I am departing from norwich.  I need to leave after 18:45 on Wednesday.","resgen":"i m departing from cambridge on sunday .","user-x":0},"3":{"gold":"I have several options for you. Where is your destination?","resgen":"there are a train leaving from cambridge to arrive by 12 30 . would you like to book a seat ?","user-x":1},"4":{"gold":"I will be heading to cabridge","resgen":"i am leaving from birmingham new street .","user-x":0},"5":{"gold":"The earliest after 18:45 is the TR8658, leaving Norwich at 19:16. Can I reserve you one or more seats on this train?","resgen":"<unk> leaves cambridge at 05 01 . would you like to book a train ?","user-x":1},"6":{"gold":"yeah, i need one ticket","resgen":"yes , please . i need to book the train id","user-x":0},"7":{"gold":"Booking was successful, the total fee is 17.6 GBP payable at the station. Your reference number is AXH1NM1I. Do you need assistance with anything else?","resgen":"booking was successful , the total fee is <unk> .","user-x":1},"8":{"gold":"I am also looking for a multi sport in the East. ","resgen":"i m also looking for a place to stay in the centre .","user-x":0},"9":{"gold":"It looks like there is The Cherry Hinton Village Centre.  Can I get you more information about it? ","resgen":"i have a few places in the centre of town . would you like to .","user-x":1}},{"0":{"gold":"What can you tell me about the Riverside Brasserie?","user-x":0},"1":{"gold":"It is a restaurant that serves modern european food near the centre of town. It is moderately priced. The phone number is 01223259988.","resgen":"yes , the phone number is <unk> . is there a particular area of town . would you like to book a table ?","user-x":1},"2":{"gold":"Perfect. Can you help me with a reservation for 6 people at 14:30 this coming sunday? And please make sure I have a confirmation number to use.","resgen":"thank you . can you book a table for me ?","user-x":0},"3":{"gold":"Your reservation is set! The table will be reserved for 15 minutes. Your reference number is LZLUDTVI. Is there anything else you need?","resgen":"i was able to book the reservation for you . your reference number is <unk> .","user-x":1},"4":{"gold":"I'm also looking for a place to stay.  In the south preferably.","resgen":"i am also looking for a train to cambridge .","user-x":0},"5":{"gold":"What price range were you thinking?","resgen":"there are two options , do you have a preference ?","user-x":1},"6":{"gold":"No particular price range, but I would like it to be a 4 star hotel. ","resgen":"i would like to book a moderate price range .","user-x":0},"7":{"gold":"There are no hotels that fit your criteria in the South, but there are two Guesthouses. Would you like to book one of those?","resgen":"i have a the <unk> . the ashley <unk> . you . you would like . would","user-x":1},"8":{"gold":"Sure, that will work. Can you tell me more about them?","resgen":"no , i don t care about the price range .","user-x":0},"9":{"gold":"Aylesbray Lodge Guesthouse and Rosa's Bed and Breakfast, both are rated at 4 stars and both include free parking and internet. Would you like a reservation for one of them?","resgen":"i have a the <unk> marriott booked . the <unk> <unk> . you . you . you","user-x":1}},{"0":{"gold":"I am looking for a specific hotel, its name is express by holiday inn cambridge ","user-x":0},"1":{"gold":"I have the Express by Holiday Inn Cambridge located on 15-17 norman way, coldhams business park. Their phone number is 01223866800. Would you like to know anything else?","resgen":"i can help with that . what is your price range ?","user-x":1},"2":{"gold":"Yes, could you book the hotel room for me for 7 people?","resgen":"yes , i would like to book a room for 4 people .","user-x":0},"3":{"gold":"Yes, of course. What day would you like to stay? ","resgen":"i have booked your room for you .","user-x":1},"4":{"gold":"Monday, please. There will be 7 of us and we'd like to stay for 4 days.","resgen":"i would like to book it for","user-x":0},"5":{"gold":"Here is the booking information:Booking was successful.\nReference number is : 5F8G6J1G","resgen":"i was able to book the reference number is <unk> . is there anything else i can help you with ?","user-x":1},"6":{"gold":"Thank you. I would also like to book a train, please.","resgen":"thanks , i also need a train to go to the restaurant .","user-x":0},"7":{"gold":"Sure, which stations will you be traveling between?","resgen":"i will be happy to help you with that . what day would you like to travel ?","user-x":1},"8":{"gold":"I will be going from cambridge to birmingham new street.","resgen":"i am leaving from cambridge to cambridge .","user-x":0},"9":{"gold":"What time would you like to leave?  The trains depart every hour.","resgen":"i have train <unk> leaving after that leaves at 05 00 .","user-x":1}},{"0":{"gold":"Hi I'm looking for lodging in Cambridge that includes free wifi and is upscale and expensive","user-x":0},"1":{"gold":"I found Gonville hotel matching your requirements. Would you like to stay there?","resgen":"i have 5 hotels that meet your criteria . would you like to book a room ?","user-x":1},"2":{"gold":"I actually am looking for a guesthouse, not a hotel.","resgen":"i would like to stay in the north .","user-x":0},"3":{"gold":"Unfortunately, there is nothing that meets your criteria. Is there anything else I can help you with?","resgen":"i have the <unk> hotel . would you like to book a a a ? you ?","user-x":1},"4":{"gold":"Is there a guesthouse that might be in the cheaper price range in the same area?","resgen":"yes , please .","user-x":0},"5":{"gold":"Yes, we should be able to find you a guesthouse. Remind me of the area you need that in.","resgen":"there are 4 stars that fit your criteria . would you like to book a room ?","user-x":1},"6":{"gold":"I need it in the east, please.","resgen":"yes , please . i need the address and phone number for 4 nights starting from wednesday .","user-x":0},"7":{"gold":"I found 3 great guesthouses that meet your criteria! Would you like me to go ahead and book one?","resgen":"i have a <unk> guesthouse in the centre . would you .","user-x":1},"8":{"gold":"Yes.  I need 3 rooms beginning on Tuesday for 2 nights.","resgen":"yes , please . i need the address and phone number for 4 nights starting from wednesday .","user-x":0},"9":{"gold":"How many people in total will be staying?","resgen":"i was able to book a room for you . reference number <unk>","user-x":1}}];
+    var source_ids = JSON.parse($("#source-ids").val());
     console.log(data.length);
     var u_odd_template = $("#user-odd").html();
     var u_even_template = $("#user-even").html();
@@ -194,10 +217,12 @@
 
     var hit_template = $("#hit-template").html();
 
+    var ground_truth = {};
     for (var i=0; i < data.length; i++){
-
         var hit_obj = $(hit_template);
         hit_obj.find("#annot-id").html("Annotation Task #" + (i+1));
+        _id = "id", "D_"+source_ids[i];
+        hit_obj.find("form").attr(_id);
 
         turns = [];
         for (var k in data[i]){
@@ -223,9 +248,47 @@
         for (var j=0; j < T; j++){
             addMessage(j, turns[j]['gold'], false);
         }
-        addMessage(T, turns[T]['resgen'], true);
+        if(Math.random() > 0.5){
+            // AI
+            addMessage(T, turns[T]['resgen'], true);
+            ground_truth[_id] = 'ai';
+        }else{
+            // Human
+            ground_truth[_id] = 'human';
+            addMessage(T, turns[T]['gold'], true);
+        }
 
         $("#root").append(hit_obj);
     }
+
+    var responses = {};
+    document.querySelector('crowd-form').onsubmit = function() {
+        console.log(responses);
+        console.log(ground_truths);
+        document.getElementById('annotations').value = JSON.stringify(responses);
+        document.getElementById('ground_truths').value = JSON.stringify(ground_truths);
+
+    };
+
+    document.getElementById('submitButton').onclick = function() {
+        // Add logic to make sure all fields are marked!
+        var filled=true;
+        responses = {};
+        $("form.hit-form").each(function(what){
+            var form = $(this);
+            var id = form.attr("id");
+            var selected_option = form.find(":checked").attr("species");
+            console.log(selected_option);
+            responses[id] = selected_option;
+            if (typeof selected_option === 'undefined'){
+                filled = false;
+            }
+        });
+        if (filled){
+            document.querySelector('crowd-form').submit();
+        }else{
+            $("#incompleteModal").modal("show");
+        }
+    };
 
 </script>
