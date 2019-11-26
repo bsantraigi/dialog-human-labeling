@@ -1,0 +1,53 @@
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
+
+<crowd-form>
+  <crowd-classifier
+    name="response"
+    categories="{{ task.input.labels }}"
+    header="Pick the Most Appropriate Response to Dialog Context"
+  >
+    <classification-target id="target-dialog">
+    Dialog to go here
+    </classification-target>
+
+    <full-instructions header="Full Task Instructions">
+        <h1>Dialog Response Selection</h1>
+        <p>Each data sample consists of a base dialog context and several candidate responses. Your task is to choose the best response among all the candidates. Following is an example data sample,</p>
+        <p><br /><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.stack.imgur.com/U93bk.png" alt="Instructions" width="595" height="455" /></p>
+        <p>In above example, the dialog context is <em>&ldquo;hello , i brought a lap - top computer with me . do you know how can i use the internet in my room ? &ldquo;.&nbsp;</em></p>
+        <p>There are 3 candidate responses available in this sample, you have to choose the best one among these. If you think <em>Response 1 </em>is the best available response, please label this as <em>1.</em></p>
+        <p>For comparing the available responses you need to consider two aspects of the responses,&nbsp;</p>
+        <ul>
+        <li><em>Coherence of the response to the dialog context.</em></li>
+        </ul>
+        <ul>
+        <li>Grammatical correctness of the response.</li>
+        </ul>
+        <p><br /><br /></p>
+    </full-instructions>
+
+    <short-instructions>
+        <ol>
+            <li><strong>Read</strong> the dialog history/<strong>context</strong> carefully.</li>
+            <li><strong>Read</strong> the <strong>individual</strong> <strong>responses</strong> carefully.</li>
+            <li><strong>Choose the response label</strong> that best suits the context in terms of grammatical correctness and coherence to the context.</li>
+            <li>Read the <strong>example</strong> in <strong>full instructions</strong> to understand more about the task.</li>
+        </ol>
+    </short-instructions>
+    <input hidden id="data" value='{{ task.input.data }}'><input>
+  </crowd-classifier>
+
+</crowd-form>
+
+
+
+<script>
+var sample_dat = {"0": {"user-x": 0, "gold": "I need to book a hotel in the east that has 4 stars.  "}, "1": {"user-x": 1, "gold": "I can help you with that. What is your price range?", "resgen": "i have 2 hotels in the east part of town . would you like to book a room ?"}, "2": {"user-x": 0, "gold": "That doesn't matter as long as it has free wifi and parking.", "resgen": "i would like to stay in the moderate price range ."}, "3": {"user-x": 1, "gold": "If you'd like something cheap, I recommend the Allenbell. For something moderately priced, I would recommend the Warkworth House.", "resgen": "i have a 4 star hotel in the west . would you . have a . . ?"}, "4": {"user-x": 0, "gold": "Could you book the Wartworth for one night, 1 person?", "resgen": "yes , i would like to book a room for 4 people ."}, "5": {"user-x": 1, "gold": "What day will you be staying?", "resgen": "i have the reservation for you . your reference number is <unk> ."}, "6": {"user-x": 0, "gold": "Friday and Can you book it for me and get a reference number ?", "resgen": "i need to book it for 3 people ."}, "7": {"user-x": 1, "gold": "Booking was successful.\nReference number is : BMUKPTG6.  Can I help you with anything else today?", "resgen": "i was able to book the <unk> for you . reference number <unk>"}, "8": {"user-x": 0, "gold": "I am looking to book a train that is leaving from Cambridge to Bishops Stortford on Friday. ", "resgen": "i am also looking for a train to cambridge ."}, "9": {"user-x": 1, "gold": "There are a number of trains leaving throughout the day.  What time would you like to travel?", "resgen": "i have several trains that leaves you need to arrive by ?"}, "id": "D_0"};
+var data = JSON.parse($("#data").val());
+</script>
