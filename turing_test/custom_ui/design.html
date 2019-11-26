@@ -179,7 +179,6 @@
 
         var hit_template = $("#hit-template").html();
 
-
         for (var i=0; i < data.length; i++){
 
             var hit_obj = $(hit_template);
@@ -190,18 +189,26 @@
                 turns[k] = data[i][k];
             }
 
-            T = Math.min(turns.length, 5);
-            for (var j=0; j < T; j++){
-                if (j%2 == 0){
-                    u_obj = $(u_odd_template);
+            T = Math.min(turns.length-1, 5);
+            function FirstCap(m){
+                m = m.replace("<unk>", "[HIDDEN]");
+                return m[0].toUpperCase() + m.slice(1);
+            }
+            function addMessage(turn, m, ai){
+                m = FirstCap(m.toLowerCase());
+                if (turn%2 == 0){
+                    u_obj = ai? $(ai_odd_template) : $(u_odd_template);
                    }
                    else{
-                    u_obj = $(u_even_template);
+                    u_obj = ai? $(ai_even_template) : $(u_even_template);
                    }
-                u_obj.find("p").html(turns[j]['gold']);
+                u_obj.find("p").html(m);
                 hit_obj.find("#content-box").append(u_obj);
-
             }
+            for (var j=0; j < T; j++){
+                addMessage(j, turns[j]['gold'], false);
+            }
+            addMessage(T, turns[T]['resgen'], true);
 
             $("#root").append(hit_obj);
         }
