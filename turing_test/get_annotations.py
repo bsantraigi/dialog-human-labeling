@@ -16,6 +16,3 @@ for my_bucket_object in my_bucket.objects.filter(Prefix=folder):
     fname = fname.replace(':', '_')
     # Download files with filename fix
     s3.meta.client.download_file(bucket, my_bucket_object.key, f"annotation_download/{fname}")
-
-
-# Process the annotations > save them
