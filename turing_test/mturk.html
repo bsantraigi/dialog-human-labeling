@@ -21,7 +21,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 <div class="jumbotron text-center">
-    <h2>Turing Test for Artificially Intelligent Dialog System</h2>
+    <h2>Turing Test for Artificially Intelligent Dialog Systems</h2>
 </div>
 
 <div class="modal fade" id="incompleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -47,16 +47,18 @@
     <div id="nonsense">
         <h3>Instructions</h3>
         <ol>
+            <li><em>This test is to asses how good machine learning algorithms are when it comes to the task of making conversation.</em></li>
+            <li>For each conversation, <strong>all utterances, except the last one</strong>, are known to be communicated by a <strong>human</strong>.&nbsp;</li>
+            <li><strong>The task </strong>is to figure out whether<strong> the last response is by a human or an AI.</strong></li>
             <li><strong>Read</strong> the dialog history/<strong>context</strong> carefully.</li>
-            <li><strong>Read</strong> the <strong>individual</strong> <strong>responses</strong> carefully.</li>
-            <li><strong>Choose the response label</strong> that best suits the context in terms of grammatical correctness and coherence to the context.</li>
-            <li>Read the <strong>example</strong> in <strong>full instructions</strong> to understand more about the task.</li>
+            <li>Read the <strong>last response</strong> and <strong>annotate</strong> it as a <strong>HUMAN</strong> written or <strong>AI</strong>-generated response.</li>
+            <!--li>Read the <strong>example</strong> in <strong>full instructions</strong> to understand more about the task.</li-->
         </ol>
-        <p>
+        <!--p>
           <button class="btn btn-link" type="button" data-toggle="modal" data-target="#exampleModal" aria-expanded="false" aria-controls="collapseExample">
             See Full Instructions
           </button>
-        </p>
+        </p-->
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg" role="document">

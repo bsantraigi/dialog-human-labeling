@@ -3,7 +3,7 @@ import json
 import os
 
 pack_name = "PACK_resgen_multiwoz"
-pack_path = f"data/{pack_name}/"
+pack_path = f"./data/{pack_name}/"
 bucket_path = "sagemaker-dialog-label-demo"
 
 all_test_subjects = []
@@ -22,7 +22,7 @@ Per line in manifest.json -- k annotation tasks
 # Number of annotation per HIT would be handled from AMT
 """
 import random
-N = 10 # Always assumes first N
+N = 100 # Always assumes first N
 per_person = 5
 pages = N // per_person
 
