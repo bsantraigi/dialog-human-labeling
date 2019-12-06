@@ -4,3 +4,4 @@ data
 turing_test/annotation_download
 hyps.txt
 refs.txt
+**ipynb_checkpoints
